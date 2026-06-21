@@ -5,7 +5,7 @@ license = "MIT OR Apache-2.0"
 edition = "2024"
 
 [dependencies]
-nightshade-api = "0.46.0"
+nightshade-api = "0.47.0"
 
 [profile.wasm-release]
 inherits = "release"
