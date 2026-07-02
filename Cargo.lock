@@ -1418,9 +1418,9 @@ dependencies = [
 
 [[package]]
 name = "freecs"
-version = "2.0.1"
+version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "13983eed2e01937416cdc3c788fa221b57acc67ce2d12aa548dc489a8f2b7ddc"
+checksum = "1d03a4994aa31496def6d4bd997e68a9ac2672ee303526e5786a094738ef2fff"
 dependencies = [
  "paste",
  "rayon",
@@ -2575,9 +2575,9 @@ dependencies = [
 
 [[package]]
 name = "nightshade"
-version = "0.46.0"
+version = "0.50.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fe129a153415ed66afe46dae5ae9bc70712090c524bbf03a168afd72c4896e7e"
+checksum = "8cb56eb36e0f8f1b64a9a94747a61bb4b40d600a33a29f9318153b8d0062a12d"
 dependencies = [
  "accesskit",
  "accesskit_winit",
@@ -2633,9 +2633,9 @@ dependencies = [
 
 [[package]]
 name = "nightshade-api"
-version = "0.46.0"
+version = "0.50.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c57c182c56043c3dfdfb48ad7641ed6a6292777c43df7fa9701d85d6910144da"
+checksum = "adb96908157b7cabab0e3d9dc5c71144043775b3335f84d015d6860bc4123c06"
 dependencies = [
  "bincode",
  "enum2schema",
@@ -3988,6 +3988,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "sha1_smol"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bbfa15b3dddfee50a0fff136974b3e1bde555604ba463834a7eb7deb6417705d"
+
+[[package]]
 name = "sharded-slab"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4769,6 +4775,7 @@ dependencies = [
  "getrandom 0.4.2",
  "js-sys",
  "serde_core",
+ "sha1_smol",
  "wasm-bindgen",
 ]
 
